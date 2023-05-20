@@ -88,7 +88,7 @@ WHERE s.name = 'Digimon' AND o.full_name = 'Jennifer Orwell';
 SELECT a.name
 FROM animals a
 JOIN owners o ON a.owner_id = o.id
-WHERE o.full_name = 'Dean Winchester';
+WHERE o.full_name = 'Dean Winchester' AND a.escape_attempts = 0;
 
 
 SELECT o.full_name, COUNT(*) AS animal_count
