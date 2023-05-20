@@ -61,13 +61,7 @@ Clone this repository to your desired folder:
 
 ### Usage
 
-To run the project execute the command below
-
-`npm start`
-
-### Run tests
-
-To run tests, run the following command:
+To run the project execute the Query at PostgreSQL
 
 <!-- AUTHORS -->
 
